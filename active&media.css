@@ -1,0 +1,149 @@
+.free:hover,
+.free:active {
+  color: rgb(190, 190, 190, 0.7);
+}
+
+.btn-small:hover,
+.btn-small:active,
+.btn-big:hover,
+.btn-big:active {
+  background-color: rgb(255, 99, 206);
+}
+
+.link:hover,
+.link:active {
+  text-decoration: underline;
+}
+
+.icon:hover,
+.icon:active {
+  cursor: pointer;
+  fill: rgb(255, 99, 206);
+  border: 2px solid rgb(255, 99, 206);
+}
+
+@media (max-width: 376px) {
+  body {
+    overflow-x: hidden;
+  }
+  .container {
+    padding: 0;
+    height: 2600px;
+  }
+  .banner {
+    padding: 0.8rem 0.3rem 0 0.3rem;
+    gap: 5.6rem;
+  }
+  .logo {
+    width: 150px;
+    height: 25px;
+  }
+  .free {
+    font-size: 12px;
+    padding: 0.6rem 2rem;
+  }
+
+  .left {
+    padding: 0;
+    width: 350px;
+    text-align: center;
+    margin-left: 0.6rem;
+  }
+  .main-header {
+    font-size: 25px;
+  }
+  .desktop {
+    opacity: 0;
+    width: 0;
+  }
+  .mobile {
+    opacity: 1;
+    height: 200px;
+    width: 375px;
+  }
+  .app {
+    height: 300px;
+    width: 350px;
+    margin-left: 1rem;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    margin-bottom: 5rem;
+  }
+
+  .feature-block {
+    grid-template-columns: 1fr;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    padding: 1rem 0 0 0;
+    gap: 1.2rem;
+  }
+
+  .feature-block:first-child {
+    margin-top: 5rem;
+  }
+  .feature-text {
+    padding: 0 2rem 1.2rem 2rem;
+  }
+  .features-header {
+    font-size: 25px;
+  }
+  .features-content {
+    font-size: 16px;
+  }
+  .image {
+    height: 200px;
+    width: 200px;
+    grid-row: 1/1;
+    justify-self: center;
+    align-self: center;
+  }
+  .community {
+    position: relative;
+    padding: 1.2rem;
+    margin-bottom: 5rem;
+    top: -100px;
+  }
+  .community-header {
+    font-size: 20px;
+  }
+  .btn-big {
+    font-size: 15px;
+  }
+  .footer {
+    padding-left: 0;
+    height: 650px;
+    width: 375px;
+    padding-right: 0;
+  }
+
+  .footer-content {
+    margin: 0;
+  }
+
+  .footer-flex {
+    flex-direction: column;
+    width: 300px;
+    gap: 1.2rem;
+    padding-left: 1.2rem;
+  }
+  .details {
+    width: 300px;
+  }
+  .information {
+    grid-template-columns: 1fr;
+    width: 300px;
+  }
+  .icons {
+    margin-left: 3.8rem;
+  }
+  .copyright {
+    width: 340px;
+    text-align: center;
+    margin: 0;
+    margin-left: 1rem;
+  }
+}
